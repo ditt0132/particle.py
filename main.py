@@ -53,6 +53,7 @@ def process_image():
                     f"{round(pixel[2] / 255, 5)} 0.5 ~{x / 10} ~{y / 10} ~ 0 0 0 1 0 force\n")
     resized.show()
     print("\x1b[4;32m성공!\x1b[0;0m")
+    input()
     print("Enter 키를 눌러 나가세요.")
 
 
